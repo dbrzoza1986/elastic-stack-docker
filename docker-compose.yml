@@ -175,7 +175,6 @@ services:
       - LOGSTASH_HOSTS=http://logstash01:9600
     command:
       - --strict.perms=false
-e 
 
   filebeat01:
     depends_on:
